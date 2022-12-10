@@ -1,0 +1,24 @@
+.gallery {
+  overflow: hidden;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 300px);
+  grid-gap: 15px;
+  margin: 15px;
+}
+
+.gallery img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.floating-btn {
+  right: 1.5rem;
+  bottom: 1.5rem;
+}
+
+.floating-btn>img {
+  max-width: 50px;
+}

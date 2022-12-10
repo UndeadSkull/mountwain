@@ -47,9 +47,9 @@
 .site-navbar .site-navigation .site-menu>li>a>span {
   padding: 5px 20px;
   display: inline-block;
-  -webkit-transition: .3s all ease;
-  -o-transition: .3s all ease;
-  transition: .3s all ease;
+  -webkit-transition: .2s all ease;
+  -o-transition: .2s all ease;
+  transition: .2s all ease;
   border: 2px solid transparent;
   border-radius: 10px;
 }
@@ -73,9 +73,9 @@
   transform: translateX(110%);
   -webkit-box-shadow: -10px 0 20px -10px rgba(0, 0, 0, 0.1);
   box-shadow: -10px 0 20px -10px rgba(0, 0, 0, 0.1);
-  -webkit-transition: .3s all ease-in-out;
-  -o-transition: .3s all ease-in-out;
-  transition: .3s all ease-in-out;
+  -webkit-transition: .2s all ease-in-out;
+  -o-transition: .2s all ease-in-out;
+  transition: .2s all ease-in-out;
 }
 
 .offcanvas-menu .site-mobile-menu {
@@ -103,9 +103,9 @@
   padding-right: 0px;
   line-height: 1;
   cursor: pointer;
-  -webkit-transition: .3s all ease;
-  -o-transition: .3s all ease;
-  transition: .3s all ease;
+  -webkit-transition: .2s all ease;
+  -o-transition: .2s all ease;
+  transition: .2s all ease;
 }
 
 .site-mobile-menu .site-mobile-menu-header .site-mobile-menu-close span:hover {
@@ -194,9 +194,9 @@
   -webkit-transform: translate(-50%, -50%) rotate(-180deg);
   -ms-transform: translate(-50%, -50%) rotate(-180deg);
   transform: translate(-50%, -50%) rotate(-180deg);
-  -webkit-transition: .3s all ease;
-  -o-transition: .3s all ease;
-  transition: .3s all ease;
+  -webkit-transition: .2s all ease;
+  -o-transition: .2s all ease;
+  transition: .2s all ease;
 }
 
 .site-mobile-menu .site-nav-wrap .arrow-collapse.collapsed:before {
