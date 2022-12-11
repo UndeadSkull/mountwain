@@ -67,3 +67,15 @@ a:hover {
 img {
 	max-width: 100%;
 }
+
+.text-mountwain {
+	color: #28b484;
+}
+
+.bg-mountwain {
+	background-color: #28b484;
+}
+
+.font-size-xl {
+	font-size: x-large;
+}

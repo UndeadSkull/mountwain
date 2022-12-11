@@ -19,6 +19,7 @@ body {}
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
+  background-attachment: fixed;
   z-index: -1;
 }
 
@@ -28,6 +29,28 @@ body {}
 
 .hero-content .logo {
   width: 100px;
+}
+
+.hero-content .down-arrow {
+  animation: bounce 2s infinite;
+}
+
+@keyframes bounce {
+  0% {
+    transform: translateY(0px);
+  }
+
+  40% {
+    transform: translateY(5px);
+  }
+
+  60% {
+    transform: translateY(5px);
+  }
+
+  100% {
+    transform: translateY(0px);
+  }
 }
 
 .about-section {
