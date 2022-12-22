@@ -32,6 +32,7 @@
 .hero-content .hero-icon-container {
   max-width: 900px;
   margin: auto;
+  padding-inline: 5px;
 }
 
 .hero-content .card.hero-icon {
@@ -40,6 +41,13 @@
 
 .hero-content .down-arrow {
   animation: bounce 2s infinite;
+}
+
+.round-icon-card {
+  width: clamp(85px, 20vw, 150px);
+  height: clamp(85px, 20vw, 150px);
+  background-color: white;
+  border-radius: 50%;
 }
 
 @keyframes bounce {
