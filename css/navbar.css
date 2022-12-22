@@ -1,9 +1,10 @@
 .site-navbar {
   margin-bottom: 0px;
-  padding: 0 2rem;
+  padding: 0;
+  padding-inline: clamp(0.2rem, 2vw, 2rem);
   z-index: 1999;
   position: absolute;
-  top: 2rem;
+  top: clamp(0.2rem, 2vw, 2rem);
   width: 100%;
 }
 
